@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data — never commit datasets
+data/raw/
+data/synthetic/
+data/real_oos/
+*.jpg
+*.jpeg
+*.png
+
+# Model weights
+*.pt
+*.pth
+outputs/
+runs/
+
+# Colab/Jupyter
+.ipynb_checkpoints/
+__pycache__/
+
+# Allow sample images for README
+!notebooks/sample_images/*.jpg
