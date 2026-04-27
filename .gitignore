@@ -237,3 +237,8 @@ __pycache__/
 
 # Allow sample images for README
 !notebooks/sample_images/*.jpg
+
+/data
+/checkpoints
+/inpainting_models
+/logs
